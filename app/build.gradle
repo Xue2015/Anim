@@ -18,7 +18,9 @@ android {
         }
     }
 }
+android {compileOptions.encoding = "GBK"}
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
 }
+
