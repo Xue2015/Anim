@@ -1,74 +1,76 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
     <ImageView
         android:id="@+id/imageView_h"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingLeft="5dp"
-        android:paddingTop="5dp"
-        android:src="@drawable/h"
-        />
+        android:layout_gravity="center"
+        android:src="@drawable/h" />
+
     <ImageView
         android:id="@+id/imageView_b"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:paddingLeft="5dp"
         android:paddingTop="5dp"
-        android:src="@drawable/b"
-        />
+        android:src="@drawable/b" />
+
     <ImageView
         android:id="@+id/imageView_c"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:paddingLeft="5dp"
         android:paddingTop="5dp"
-        android:src="@drawable/c"
-        />
+        android:src="@drawable/c" />
+
     <ImageView
         android:id="@+id/imageView_d"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:paddingLeft="5dp"
         android:paddingTop="5dp"
-        android:src="@drawable/d"
-        />
+        android:src="@drawable/d" />
+
     <ImageView
         android:id="@+id/imageView_f"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:paddingLeft="5dp"
         android:paddingTop="5dp"
-        android:src="@drawable/f"
-        />
+        android:src="@drawable/f" />
+
     <ImageView
         android:id="@+id/imageView_e"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:paddingLeft="5dp"
         android:paddingTop="5dp"
-        android:src="@drawable/e"
-        />
+        android:src="@drawable/e" />
 
     <ImageView
         android:id="@+id/imageView_g"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:paddingLeft="5dp"
         android:paddingTop="5dp"
-        android:src="@drawable/g"
-        />
+        android:src="@drawable/g" />
+
     <ImageView
         android:id="@+id/imageView_a"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingLeft="0dp"
-        android:paddingTop="0dp"
-        android:src="@drawable/a"
-        />
+        android:layout_gravity="center"
+        android:src="@drawable/a" />
 
 
 </FrameLayout>
