@@ -45,7 +45,8 @@
         android:layout_gravity="center"
         android:paddingLeft="5dp"
         android:paddingTop="5dp"
-        android:src="@drawable/f" />
+        android:src="@drawable/f"
+        />
 
     <ImageView
         android:id="@+id/imageView_e"
@@ -54,6 +55,7 @@
         android:layout_gravity="center"
         android:paddingLeft="5dp"
         android:paddingTop="5dp"
+        android:clickable="true"
         android:src="@drawable/e" />
 
     <ImageView

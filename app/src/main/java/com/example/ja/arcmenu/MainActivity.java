@@ -5,9 +5,9 @@ import android.animation.ObjectAnimator;
 import android.animation.PropertyValuesHolder;
 import android.annotation.TargetApi;
 import android.app.Activity;
+import android.content.Intent;
 import android.graphics.Path;
 import android.os.Build;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -82,6 +82,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 }
 
                 break;
+            case R.id.imageView_f:
+                page();
             default:
                 Toast.makeText(MainActivity.this, "Click" + v.getId(), Toast.LENGTH_SHORT).show();
                 break;
@@ -155,5 +157,10 @@ public class MainActivity extends Activity implements View.OnClickListener {
         }
         flag = false;
 
+    }
+
+    public  void page () {
+        Intent intent = new Intent(MainActivity.this, PaintActivity.class);
+        startActivity(intent);
     }
 }
